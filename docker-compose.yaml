@@ -1,0 +1,11 @@
+services:
+  php74:
+    image: php:7.4-cli
+    tty: true
+    volumes:
+      - .:/PHP7.4
+  php80:
+    image: php:8.0-cli
+    tty: true
+    volumes:
+      - .:/PHP8.0
